@@ -1,0 +1,117 @@
+/* 
+Author: Luke Picht
+Date 3/18/23
+File Name: styles.css
+*/
+
+/* CSS reset */
+body, header, nav, main, footer, h1, div, img, ul {
+    margin: 0;
+    padding: 0;
+    border: 0;
+
+}
+
+/* Style rule for body */
+body {
+    background-color: red;
+}
+
+header h1 {
+    background-color: white;
+    text-align: center;
+    padding-bottom: 1%;
+    padding-top: 1%;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+nav {
+    background-color: white;
+    padding: 1%;
+    margin-bottom: 1%;
+    text-align: center;
+    font-size: 1.5em;
+    font-family: 'Roboto Condnsed', sans-serif;
+    background-color: yellow;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    padding: 16px;
+}
+
+p {
+    background-color: white;
+    text-align: center;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+main {
+    background-color: red;
+}
+
+h2 {
+    background-color: yellow;
+    text-align: center;
+    padding-bottom: 1%;
+    padding-top: 1%;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+h3 {
+    background-color: white;
+    text-align: center;
+    padding-bottom: 1%;
+    padding-top: 1%;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+ul {
+    background-color: white;
+    font-family: 'Roboto Condensed', sans-serif;
+    padding-left: 3%;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+footer ul{
+    list-style-type: none;
+    padding: 1%;
+    padding-left: 1%;
+}
+
+@media screen and (min-width: 630px, print) {
+    .tablet-desktop {
+        display: block;
+    }
+
+    /*Tablet Viewport: Stye rule for header */
+    header {
+        position: fixed;
+        padding-bottom: 2%;
+    }
+
+    /*Tablet Viewport: Style rules for nav area */
+    nav li {
+        border-top: none;
+        display: inline-block;
+        border-right: 1px;
+    }
+
+    nav li {
+        border-right: none;
+    }
+
+    nav li a {
+        padding: 0.1em 0.75em;
+    }
+}
